@@ -1,4 +1,4 @@
-(defproject puppetlabs/jruby-utils "0.4.7-SNAPSHOT"
+(defproject puppetlabs/jruby-utils "0.4.8-SNAPSHOT"
   :description "A library for working with JRuby"
   :url "https://github.com/puppetlabs/jruby-utils"
   :license {:name "Apache License, Version 2.0"
@@ -53,5 +53,6 @@
                                    [puppetlabs/trapperkeeper :classifier "test" :scope "test"]]}
              :testutils {:source-paths ^:replace ["test/unit" "test/integration"]}}
 
-  :plugins [[lein-parent "0.3.1"]]
+  :plugins [[lein-parent "0.3.1"]
+            [lein-release-4digit-version "0.1.0"]]
   )
